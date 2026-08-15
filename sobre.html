@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre — Fernando Curbani</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #EEF1F4; --ink: #1A2333; --ink-soft: #4B5768;
+    --card: #FFFFFF; --line: #D7DEE5; --accent: #B8863B;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px 90px; }
+
+  nav {
+    display: flex; gap: 22px; align-items: center; padding: 22px 24px;
+    max-width: 720px; margin: 0 auto; font-size: 13.5px;
+  }
+  nav a { color: var(--ink-soft); text-decoration: none; }
+  nav a:hover { color: var(--ink); }
+  nav .brand { font-weight: 600; color: var(--ink); margin-right: auto; }
+
+  .hero { padding: 30px 0 10px; }
+  .hero-eyebrow {
+    font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 14px; font-weight: 600;
+  }
+  h1 {
+    font-family: 'Source Serif 4', serif; font-weight: 700;
+    font-size: 36px; line-height: 1.2; margin: 0 0 10px;
+  }
+  .role { font-size: 16px; color: var(--ink-soft); margin: 0 0 30px; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 26px 28px; margin-bottom: 18px;
+  }
+  .card h2 {
+    font-family: 'Source Serif 4', serif; font-size: 17px; font-weight: 600;
+    margin: 0 0 14px; color: var(--ink);
+  }
+  .field { display: flex; gap: 14px; padding: 9px 0; border-top: 0.5px solid var(--line); }
+  .field:first-of-type { border-top: none; }
+  .field-label {
+    font-size: 12px; color: var(--ink-soft); text-transform: uppercase;
+    letter-spacing: 0.06em; width: 130px; flex-shrink: 0; padding-top: 2px;
+  }
+  .field-value { font-size: 14.5px; line-height: 1.5; }
+
+  p.body-text { font-size: 14.5px; line-height: 1.7; color: var(--ink-soft); margin: 0 0 14px; }
+
+  footer {
+    text-align: center; margin-top: 50px; padding-top: 24px;
+    border-top: 0.5px solid var(--line); font-size: 12.5px; color: var(--ink-soft);
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="brand">Fernando Curbani</span>
+  <a href="index.html">Início</a>
+  <a href="diario.html">Diário</a>
+  <a href="projeto-gsh.html">Projeto</a>
+  <a href="biologia/index.html">Biologia</a>
+</nav>
+
+<div class="wrap">
+  <div class="hero">
+    <p class="hero-eyebrow">Sobre</p>
+    <h1>Fernando Curbani</h1>
+    <p class="role">Doutorando em Engenharia de Alimentos</p>
+  </div>
+
+  <div class="card">
+    <h2>Programa</h2>
+    <div class="field">
+      <span class="field-label">Instituição</span>
+      <span class="field-value">Universidade Federal de Santa Catarina (UFSC)</span>
+    </div>
+    <div class="field">
+      <span class="field-label">Programa</span>
+      <span class="field-value">Programa de Pós-Graduação em Engenharia de Alimentos</span>
+    </div>
+    <div class="field">
+      <span class="field-label">Orientadora</span>
+      <span class="field-value">Profa. Dra. Jaciane Lutz Ienczak</span>
+    </div>
+    <div class="field">
+      <span class="field-label">Início</span>
+      <span class="field-value">2026</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Linha de pesquisa</h2>
+    <p class="body-text">
+      Bioprocessos e engenharia metabólica de leveduras não convencionais, com foco na valorização de
+      resíduos lignocelulósicos — transformar um material de baixo custo (bagaço de cana, palha,
+      hidrolisado hemicelulósico) em ingredientes de alto valor agregado para a indústria de alimentos.
+    </p>
+    <p class="body-text">
+      O projeto atual investiga a produção de glutationa (GSH) pela levedura <em>Spathaspora
+      passalidarum</em> a partir de xilose — uma rota inédita na literatura, construída sobre achados
+      transcriptômicos do próprio grupo de pesquisa.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Fora da tese</h2>
+    <p class="body-text">
+      Este site também guarda um projeto pessoal sem relação direta com o doutorado: uma linha do
+      tempo e uma galeria de retratos reunindo 61 marcos da história da biologia, do Renascimento à
+      inteligência artificial.
+    </p>
+  </div>
+
+  <footer>Fernando Curbani · Programa de Pós-Graduação em Engenharia de Alimentos · UFSC</footer>
+</div>
+</body>
+</html>
